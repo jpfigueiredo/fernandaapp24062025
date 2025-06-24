@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fernanda Rocha Innovare - Formulário</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Fernanda Rocha Innovare"/>
+    <h2>Formulário de Alongamento Adesivado</h2>
+  </header>
+  <main>
+    <form id="formulario">
+      <label>Nome da cliente:</label>
+      <input type="text" name="nome" required />
+      <label>Telefone:</label>
+      <input type="tel" name="telefone" required />
+      <label>Data:</label>
+      <input type="date" name="data" required />
+      <label>Hora:</label>
+      <input type="time" name="hora" required />
+      <label>Peso:</label>
+      <input type="text" name="peso" />
+      <label>Tamanho (cm):</label>
+      <input type="text" name="tamanho" />
+      <label>Cor:</label>
+      <input type="text" name="cor" />
+      <label>Qtd. de fitas laterais:</label>
+      <input type="number" name="fitasLaterais" />
+      <label>Qtd. de fitas traseiras:</label>
+      <input type="number" name="fitasTraseiras" />
+      <label>Observações:</label>
+      <textarea name="observacoes" rows="4"></textarea>
+      <label>Fotos:</label>
+      <input type="file" accept="image/*" multiple />
+      <label>Assinatura:</label>
+      <canvas id="assinatura" width="300" height="150"></canvas>
+      <button type="button" onclick="limparAssinatura()">Limpar Assinatura</button>
+      <button type="submit">Salvar</button>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

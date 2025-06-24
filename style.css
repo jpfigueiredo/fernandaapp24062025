@@ -1,0 +1,43 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fefefe;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+header {
+  text-align: center;
+  padding: 30px 20px 20px;
+  background: #fff;
+}
+header img {
+  max-height: 90px;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 1.4rem;
+}
+main {
+  padding: 20px;
+  max-width: 620px;
+  margin: auto;
+}
+label {
+  display: block;
+  margin-top: 20px;
+  font-weight: 600;
+}
+input, textarea, button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 4px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+canvas {
+  border: 1px dashed #666;
+  margin-top: 10px;
+  background: #fff;
+}
