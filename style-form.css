@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius: 12px;
+}
+.logo {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+form input, form select, form button, canvas {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+form button {
+    background-color: #222;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+form button:hover {
+    background-color: #444;
+}
